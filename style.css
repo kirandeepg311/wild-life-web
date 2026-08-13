@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#1b5e20;
+    text-align:center;
+    padding:15px;
+}
+    
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.hero{
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuUUysc3uio2a-s1Ou7yEEnWxG5bMpJWCM7t8Ad1F4NQ&s=10) no-repeat center;
+    background-size:cover;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    padding:300px 20px;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    padding:20px;
+}
+
+.card{
+    width:300px;
+    background:white;
+    margin:15px;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 8px rgba(0,0,0,0.3);
+    transition:0.3s;
+    text-align: center;
+}
+
+.card img{
+    width:100%;
+    height:220px;
+}
+
+
+button{
+    display:block;
+    margin:15px auto;
+    padding:10px 20px;
+    background:green;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+.card h2{
+    text-align:center;
+    color: black;
+    margin: 10px 0;
+}
+
+
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
